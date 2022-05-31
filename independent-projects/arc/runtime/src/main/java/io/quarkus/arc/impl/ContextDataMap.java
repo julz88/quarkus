@@ -1,6 +1,7 @@
 package io.quarkus.arc.impl;
 
 import io.quarkus.arc.ArcInvocationContext;
+import jakarta.interceptor.InvocationContext;
 import java.lang.annotation.Annotation;
 import java.util.AbstractMap;
 import java.util.ArrayList;
@@ -11,7 +12,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
-import javax.interceptor.InvocationContext;
 
 /**
  * This Map implementation is specifically optimised to implement
